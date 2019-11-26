@@ -1,12 +1,12 @@
 
 <h1 align="center">
 <br>
-  GoBarber (Project in Progress)
+  GoBarber 💈 (Project in Progress)
 </h1>
 
 <h4 align="center">
   Book barber service.
-  This is the mobile app to schedule appointments at barber service 💈.
+  This is the mobile app to schedule appointments at barber service.
 </h4>
 
 
