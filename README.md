@@ -20,7 +20,7 @@ To download the project follow the instructions bellow.
 
 #### Back-end
 
-To download and start the API server follow the instructions in this [repository](https://github.com/diegomais/gobarber-backend).
+To download and start the API server follow the instructions in this [repository](https://github.com/dolfomori/api-go-barber).
 
 #### Installing
 
