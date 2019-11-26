@@ -15,6 +15,7 @@ import {
   SubmitButton,
 } from './styles';
 
+// retirar
 export default function SingIn({ navigation }) {
   const dispatch = useDispatch();
   const passwordRef = useRef();
