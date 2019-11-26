@@ -48,10 +48,7 @@ $ react-native run-ios or run-android
 ```
 
 #### Back-end
-```bash
 To download and start the API server follow the instructions in this [repository](https://github.com/dolfomori/api-go-barber).
-```
-
 
 ### Result:
 
