@@ -8,7 +8,7 @@
   Book barber service.
   This is the mobile app to schedule appointments at barber service.
 </h4>
-
+<br>
 
 ## :rocket: Technologies
 
