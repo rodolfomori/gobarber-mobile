@@ -1,43 +1,66 @@
-# GoBarber
 
-> Book barber service 💈.
+<h1 align="center">
+<br>
+  GoBarber (Project in Progress)
+</h1>
 
-This is the mobile app to schedule appointments at barber service 💈.
+<h4 align="center">
+  Book barber service.
+  This is the mobile app to schedule appointments at barber service 💈.
+</h4>
 
-## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+## :rocket: Technologies
 
-### Prerequisites
+This project was developed with the following technologies:
 
-The project is built with React Native CLI. The instructions are a bit different depending on your operating system, and whether you want to run for iOS or Android. If you want to run on both iOS and Android, that's fine - you just have to pick one to start with, since the setup is a bit different.
+-  [ReactNative](https://reactjs.org/)
+-  [Redux](https://redux.js.org/)
+-  [Redux-Saga](https://redux-saga.js.org/)
+-  [Axios](https://github.com/axios/axios)
+-  [History](https://www.npmjs.com/package/history)
+-  [Immer](https://github.com/immerjs/immer)
+-  [Polished](https://polished.js.org/)
+-  [React-Toastify](https://fkhadra.github.io/react-toastify/)
+-  [styled-components](https://www.styled-components.com/)
+-  [React-Icons](https://react-icons.netlify.com/)
+-  [react-loading-skeleton](https://github.com/dvtng/react-loading-skeleton)
+-  [react-loader-spinner](https://github.com/mhnpd/react-loader-spinner)
+-  [Reactotron](https://infinite.red/reactotron)
+-  [VS Code][vc] with [EditorConfig][vceditconfig] and [ESLint][vceslint]
 
-**React Native CLI** is the command line tools that ship with react-native in form of the @react-native-community/cli package. [Download React Native CLI](https://facebook.github.io/react-native/docs/getting-started)
+## :information_source: How To Use
 
-### Installing
+To clone and run this application, you'll need [Git](https://git-scm.com), [Node.js v10.16][nodejs] or higher + [Yarn v1.13][yarn] or higher installed on your computer. From your command line:
 
-To download the project follow the instructions bellow.
+```bash
+# Clone this repository
+$ git clone https://github.com/dolfomori/gobarber-mobile.git
+
+# Go into the repository
+
+# Install dependencies
+$ yarn install
+
+# Run the app
+$ react-native run-ios or run-android
+
+```
 
 #### Back-end
 
 To download and start the API server follow the instructions in this [repository](https://github.com/dolfomori/api-go-barber).
 
-#### Installing
 
-Then download, install dependencies and run the project:
+### Result:
 
-```
-5. git clone https://github.com/dolfomori/gobarber-mobile.git
-6. cd gobarber-mobile
-7. yarn install
-8. react-native run-ios
-```
+<img src="https://user-images.githubusercontent.com/47903440/69632468-c9985d80-102d-11ea-92da-3de6b2bf6ac8.png" height="400">
 
-or
+<img src="https://user-images.githubusercontent.com/47903440/69632465-c8ffc700-102d-11ea-8faf-6be22a9bf4d2.png" height="400">
 
-```
-8. react-native run-android
-```
+<img src="https://user-images.githubusercontent.com/47903440/69632462-c8ffc700-102d-11ea-8fe0-c674b9887763.png" height="400">
+
+
 
 ## Author
 
