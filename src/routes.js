@@ -1,18 +1,16 @@
+import React from 'react';
+import Icon from 'react-native-vector-icons/MaterialIcons';
 import { createAppContainer, createSwitchNavigator } from 'react-navigation';
-
 import { createStackNavigator } from 'react-navigation-stack';
 import { createBottomTabNavigator } from 'react-navigation-tabs';
-import Icon from 'react-native-vector-icons/MaterialIcons';
-import React from 'react';
-import SignIn from './pages/SignIn';
-import SignUp from './pages/SignUp';
+import Confirm from '~/pages/New/Confirm';
+import SelectDateTime from '~/pages/New/SelectDateTime';
+import SelectProvider from '~/pages/New/SelectProvider';
 
 import Dashboard from './pages/Dashboard';
 import Profile from './pages/Profile';
-
-import SelectProvider from '~/pages/New/SelectProvider';
-import Confirm from '~/pages/New/Confirm';
-import SelectDateTime from '~/pages/New/SelectDateTime';
+import SignIn from './pages/SignIn';
+import SignUp from './pages/SignUp';
 
 export default (signedIn = false) =>
   createAppContainer(
@@ -26,11 +24,22 @@ export default (signedIn = false) =>
           {
             Dashboard,
             New: {
-              screen: createStackNavigator({
-                SelectProvider,
-                SelectDateTime,
-                Confirm,
-              }),
+              screen: createStackNavigator(
+                {
+                  SelectProvider,
+                  SelectDateTime,
+                  Confirm,
+                },
+                {
+                  defaultNavigationOptions: {
+                    headerTransparent: true,
+                    headerTintColor: '#FFF',
+                    headerLeftContainerStyle: {
+                      marginLeft: 20,
+                    },
+                  },
+                }
+              ),
               navigationOptions: {
                 tabBarVisible: false,
                 tabBarLabel: 'Agendar',
@@ -46,6 +55,7 @@ export default (signedIn = false) =>
             Profile,
           },
           {
+            resetOnBlur: true,
             tabBarOptions: {
               keyboardHidesTabBar: true,
               activeTintColor: '#FFF',
